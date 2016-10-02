@@ -1,2 +1,0 @@
-put raw formatted music in this directory so I can add it to client.
-supports = *.mp3 *.wav *.ogg + any other music format which windows can read.
