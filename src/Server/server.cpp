@@ -83,7 +83,11 @@ void Server::start(){
     setDefaultValue("Server/Name", QString()); // Pick a server name from GUI
     setDefaultValue("Server/Announcement", QString()); // An announcement which will show when someone logs in
     setDefaultValue("Server/MaxPlayers", 0); // 0 = Infinite Slots (Can be changed in GUI
+
+    // MMO Settings itself.
     setDefaultValue("Server/DefaultSpawn", ""); // For when levels are done can change where people spawn in etc.
+    setDefaultValue("Server/XPMultiplier", 1); // Default XP Multiplier
+
     setDefaultValue("Network/ProxyServers",QString("127.0.0.1,::1%0,localhost")); // Localhost isn't a proxy but messes up internal engine for being a bad IP range...
     setDefaultValue("Network/LowTCPDelay", false); // Sacrifice bandwidth for latency?
     setDefaultValue("AntiDOS/ShowOveractiveMessages", true); // Shows the IPs which spam in chat to all
