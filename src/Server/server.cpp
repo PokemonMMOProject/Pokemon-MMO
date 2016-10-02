@@ -93,7 +93,7 @@ void Server::start(){
     setDefaultValue("AntiDOS/ShowOveractiveMessages", true); // Shows the IPs which spam in chat to all
     setDefaultValue("AntiDOS/TrustedIps", "127.0.0.1,::1%0,localhost"); // These IPs cannot be banned, obv localhost.
     setDefaultValue("AntiDOS/MaxPeoplePerIp", 1); // Since when do we allow TWO people per HOUSE???
-    setDefaultValue("AntiDOS/MaxCommandsPerUser", 50); // Doubt someone would spam 50 commands per minute
+    setDefaultValue("AntiDOS/MaxCommandsPerUser", 25); // Doubt someone would spam 50 commands per minute
     setDefaultValue("AntiDOS/MaxKBPerUser", 25); // You go over this limit per minute you get kicked out
     setDefaultValue("AntiDOS/MaxConnectionRatePerIP", 6); // Not a clue but needed anyways..
     setDefaultValue("AntiDOS/NumberOfInfractionsBeforeBan", 10); // Bans someone if they spam 10 times over 25 KB per minute
