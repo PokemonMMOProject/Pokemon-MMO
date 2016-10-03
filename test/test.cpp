@@ -7,7 +7,7 @@ mus = new QMediaPlayer;
 
 while (mus) {
     // *cougb* SPACE *cough* windows parse error *cough cough*
-    mus->setMedia(QUrl::fromLocalFile("/src/Client/soundLib/Title Screen.mp3")); // remove space or the following will happen (read below)
+    mus->setMedia(QUrl::fromLocalFile("/src/Client/soundLib/Title_Screen.mp3")); // remove space or the following will happen (read below)
     mus->setVolume(50);
     mus->play();
 } else while (level == "someLevel") { // ???
