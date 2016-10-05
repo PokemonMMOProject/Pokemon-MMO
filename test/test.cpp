@@ -15,6 +15,15 @@ while (mus) {
     mus->setMedia(QUrl::fromLocalFile("/src/Client/soundLib/LabFactory.mp3"));
     mus->setVolume(50);
     mus->play();
+} else while (level == "someLevel2") {
+    mus->setMedia(QUrl::fromLocalFile("/src/Client/soundLib/PokeMart.mp3"));
+    mus->setVolume(50);
+    mus->play();
+} else while (level == "someLevel3") {
+    mus->setMedia(QUrl::fromLocalFile("/src/Client/soundLib/OverworldNight.mp3"));
+    //Something else would be required for this to play at night only, but I don't know that
+    mus->setVolume(50);
+    mus->play();
 };
 
 // Windows cant do:
